@@ -1,17 +1,39 @@
-.card-list {
-    margin-bottom: 37px;
-    display: grid;
-    gap: 36px;
-    grid-template-columns: 454px 454px;
-    /*grid-template-rows: repeat(auto, 281px);*/
-    padding: 0;
-    list-style: none;
+.inputText {
+    width: 930px;
+    margin: 30px 40px;
 }
-
-.loader {
-    margin: 0 auto;
+.contentMovies {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    justify-content: center;
 }
-
-.notfound-alert {
-    font-size: 18px;
+.error {
+    width: 900px;
+}
+.movieCard {
+    width: 454px;
+    margin: 10px;
+}
+.movieCard_Meta {
+    width: 405px;
+    text-align: start;
+    padding: 12px 9px;
+    height: 300px;
+    position: relative;
+}
+.movieCard_Title {
+    margin: 0;
+    width: 165px;
+    height: 44px;
+    white-space: normal;
+}
+.movieCard_Text {
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
 }
